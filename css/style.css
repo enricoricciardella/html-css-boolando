@@ -1,0 +1,87 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+img {
+    max-width: 100%;
+
+}
+
+/* LAYOUT */
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /* DEBUG */
+    border: 1px solid black;
+    min-height: 300px;
+}
+
+
+.section{
+    padding: 20px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.col{
+    
+width: calc(95%/3);
+    /* DEBUG */
+    min-height: 300px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.card{
+    /* display: inline-block; */
+    position: relative;
+    bottom: 4em;
+
+    /* border: 1px solid black; */
+/* background-color: bisque; */
+}
+
+/* -50% */
+.redbox{
+    background-color: rgb(176, 125, 125);
+
+}
+/* Sostenibilità */
+.greenbox{
+    background-color: green;
+}
+
+/* CUORE */
+.hearts{
+
+
+}
+
+.nome-prodotto{
+    font-size: 0.7em;
+}
+/* COLORE DEL PREZZO ROSSO */
+.red-price{
+    color: red;
+    /* text-decoration: line-through; */
+}
+/* COLORE DEL PREZZO ROSSO SENZA SBARRA */
+.red-price-red{
+    color: red;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
